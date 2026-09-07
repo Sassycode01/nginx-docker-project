@@ -62,6 +62,6 @@ port 80 was configured in the EC2 Security Group to allow HTTP traffic.
 The application can then be accessed through the EC2 public IP address.
 
 
-##Result
+## Result
 
 A custom HTML webpage is successfully served through Nginx running inside a Docker container on AWS EC2
