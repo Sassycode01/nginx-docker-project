@@ -1,4 +1,4 @@
-# Nginx Docker Project
+## Nginx Docker Project
 
 ## Project Overview
 
@@ -22,11 +22,11 @@ nginx-docker-project/
   |---index.html
   |---README.md
 
-##Dockerfile
+## Dockerfile
 
 The Dockerfile uses the official Nginx image and copies the HTML page into the Nginx web root
 
-##Docker commands
+## Docker commands
 
 build the docker image :
 
