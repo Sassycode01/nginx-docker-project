@@ -25,7 +25,7 @@ pipeline {
        stage('verify') {
            steps {
                sh 'docker ps'
-               sh 'curl -f http://localhost'
+               sh 'curl -f http://localhost:8080'
            }
        }
     }
