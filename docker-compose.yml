@@ -1,0 +1,7 @@
+services :
+   nginx:
+     image: sassy2031/mynginx:latest
+     container_name: mynginx-container
+     ports:
+        - "8080:80"
+     restart: unless-stopped
