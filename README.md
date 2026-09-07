@@ -40,6 +40,19 @@ check running containers :
 
 docker ps
 
+## Docker Compose
+
+start the application :
+
+docker_compose up -d
+
+Checking the running application :
+
+docker-compose ps
+
+Stop the application :
+
+docker-compose down
 ## AWS Deployment
 
 The Docker container was deployed on AWS EC2 Ubuntu server.
