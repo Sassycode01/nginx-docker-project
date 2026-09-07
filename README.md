@@ -13,7 +13,8 @@
      - Git
      - Github
      - HTML
- 
+     - Dockerhub
+
 ## Project Structure
 
 nginx-docker-project/
@@ -39,6 +40,21 @@ docker run -d --name nginx-container -p 80:80 nginx-docker-project:latest
 check running containers :
 
 docker ps
+
+## Docker Hub
+
+Docker image :
+
+sassy2031/mynginx:latest
+
+Pull the image from Docker Hub :
+
+docker pull sassy2031/mynginx:latest
+
+Run the image :
+
+docker run -d -p 8080:80 --name mynginx-container sassy2031/mynginx:latest
+
 
 ## Docker Compose
 
